@@ -41,7 +41,7 @@ It follows this pipeline:
 ---
 
 ##  **Project Structure**
-bash
+```bash
 ComicCrafter-AI/
 ├── app.py                  
 ├── BACKEND/               
@@ -55,7 +55,7 @@ ComicCrafter-AI/
 ├── .env                   
 ├── requirements.txt      
 └── README.md
-
+```
 ---
 
 ##  **Installation and Setup**
