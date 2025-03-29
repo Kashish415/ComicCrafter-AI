@@ -100,6 +100,7 @@ If you have improvements, bug fixes, or new feature ideas:
 Feel free to experiment and create your own comics!
 
 ## Contributors  
-- [Kashish Gupta](https://github.com/Kashish415)  
+- [Kashish Gupta](https://github.com/Kashish415)
+- [Sunaina](https://github.com/Sunaina792) 
 
 
