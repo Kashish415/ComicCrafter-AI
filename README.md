@@ -86,6 +86,7 @@ streamlit run app.py
 
 ## **Contributing**
 Contributions are welcome!
+
 If you have improvements, bug fixes, or new feature ideas:
 
 1. Fork the repository.
