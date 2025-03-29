@@ -2,7 +2,7 @@
 
 _ComicCrafter AI – Bring your stories to life with AI-generated comics.  🖼️⚡_
 
-**Demo Video** 
+**Demo Video:** 
 
 Click to watch the video.
 
