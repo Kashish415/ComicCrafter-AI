@@ -60,25 +60,28 @@ ComicCrafter-AI/
 
 ##  **Installation and Setup**
 ### **1. Clone the Repository**
-bash
+```bash
 git clone https://github.com/Kashish415/ComicCrafter-AI.git  
 cd ComicCrafter-AI
+```
 
 ### **2. Install dependencies**
-bash
+```bash
 pip install -r requirements.txt
+```
 
 ### **3. Add API Keys**
  Create a .env file in the root directory and add your API keys:
  
-bash
+```bash
 GOOGLE_API_KEY=your_google_api_key  
 CLIPDROP_API_KEY=your_clipdrop_api_key
+``` 
 
 ### **4. Run the Application**
-bash
+```bash
 streamlit run app.py
-
+```
 
 
 ## **Contributing**
