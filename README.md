@@ -3,9 +3,9 @@
 _ComicCrafter AI – Bring your stories to life with AI-generated comics.  🖼️⚡_
 
 **Demo Video:**  
-_Click to watch the video -_
+_Click to watch the video -_ 
+[![ComicCrafter Demo](https://img.youtube.com/vi/bQmbAsUNWtY/hqdefault.jpg)](https://youtu.be/bQmbAsUNWtY)
 
-[![ComicCrafter Demo](https://img.youtube.com/vi/bQmbAsUNWtY/0.jpg)](https://youtu.be/bQmbAsUNWtY)  
 
 
 
