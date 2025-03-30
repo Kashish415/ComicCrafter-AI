@@ -15,7 +15,7 @@ Click to watch the video.
 
 ##  **Project Overview**
 **ComicCrafter AI** is a fully automated AI-powered tool that generates **comic strips** based on text prompts.  
-It follows this pipeline:
+It follows the following pipeline:
 1. **Panel Generation:** Generates structured panel descriptions and dialogues.  
 2. **Image Creation:** Generates six art-style-specific images.  
 3. **Text Overlay:** Adds dialogues from the panel descriptions onto images.  
