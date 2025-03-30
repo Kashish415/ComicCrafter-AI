@@ -13,10 +13,13 @@ os.makedirs(OUTPUT_FOLDER, exist_ok=True)
 
 STYLE_DESCRIPTIONS = {
     
-    "Manga": "Predominantly black-and-white artwork with sharp lines and dramatic shading with no bright colors.",
-    "Anime": "Vibrant colors, expressive eyes, and dynamic action poses.",
-    "American": "Bold outlines, striking colors, and detailed inking styles.",
-    "Belgian": "Clear, precise lines with rich, detailed backgrounds (e.g., Tintin)."
+    "Manga": "High-contrast black and white sketch with sharp, clean lines, exaggerated facial expressions, and dramatic shading. No bright colors, only grayscale tones",
+
+    "Anime": "Vibrant colors with smooth cel shading, large expressive eyes, and detailed hair. Dynamic action poses with fluid motion lines",
+
+    "American": "Bold outlines with heavy inking, bright and saturated colors, and exaggerated muscular features. Classic comic book style",
+
+    "Belgian": "Clean, clear lines with soft, flat shading. Rich and detailed backgrounds in a semi-realistic style, inspired by Tintin comics",
 }
 
 st.title("🎨 ComicCrafter AI")
@@ -63,7 +66,7 @@ if st.button(" Generate Comic"):
             # PDF Download Button
             with open(pdf_output_path, "rb") as pdf_file:
                 st.download_button(
-                    label="📥 Download Comic as PDF",
+                    label=" Download Comic as PDF",
                     data=pdf_file,
                     file_name="comic_strip.pdf",
                     mime="application/pdf"

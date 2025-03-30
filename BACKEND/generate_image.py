@@ -11,20 +11,25 @@ OUTPUT_DIR = "PANEL_IMAGES"
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 
 STYLE_MAPPINGS = {
-    "Manga": "Black and white, sharp lines, exaggerated expressions, dramatic shading , No bright colors",
-    "Anime": "Vivid colors, cel shading, expressive eyes, dynamic action poses.",
-    "American": "Bold outlines, vibrant colors, comic book ink style, exaggerated features.",
-    "Belgian": "Clear lines, soft shading, rich backgrounds, Tintin comic style.",
+    "Manga": "High-contrast black and white sketch with sharp, clean lines, exaggerated facial expressions, and dramatic shading. No bright colors, only grayscale tones",
+
+    "Anime": "Vibrant colors with smooth cel shading, large expressive eyes, and detailed hair. Dynamic action poses with fluid motion lines",
+
+    "American": "Bold outlines with heavy inking, bright and saturated colors, and exaggerated muscular features. Classic comic book style",
+
+    "Belgian": "Clean, clear lines with soft, flat shading. Rich and detailed backgrounds in a semi-realistic style, inspired by Tintin comics",
 }
 
 SYSTEM_INSTRUCTIONS = """
 STRICT INSTRUCTIONS: 
 Generate a high-quality, visually appealing image, consisting of the following elements:
+
 - No speech bubbles, no text, no symbols, no gibberish language.
 - Only clear, clean, and high-quality visual details.
 - Do NOT add any text or letters in the image.
 - No distorted, strange, unrealistic, or ugly facial features or elements.
 - Ensure realistic proportions, natural expressions, and artistic coherence.
+
 """
 
 def generate_images(panel_data, art_style):
