@@ -103,6 +103,7 @@ Feel free to experiment and create your own comics!
 
 ## Contributors  
 - [Kashish Gupta](https://github.com/Kashish415)
-- [Sunaina](https://github.com/Sunaina792) 
+- [Sunaina](https://github.com/Sunaina792)
+- [Kuldeep](https://github.com/kuldeep-khator)
 
 
